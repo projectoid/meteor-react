@@ -1,0 +1,28 @@
+<template name="userInfo">
+  <div class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">{{firstName}} {{secondName}}</h3>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <table class="col-xs-12">
+                    <tr><td class="col-xs-4"><p><b>Email:</b></p></td><td class="col-xs-8"><p>{{email}}</p></td></tr>
+                    <tr><td class="col-xs-4"><p><b>Phone:</b></p></td><td class="col-xs-8"><p>{{phone}}</p></td></tr>
+                    <tr><td class="col-xs-4"><p><b>Address:</b></p></td><td class="col-xs-8"><p>{{address}}</p></td></tr>
+                    <tr><td class="col-xs-4"><p><b>City:</b></p></td><td class="col-xs-8"><p>{{city}}</p></td></tr>
+                    <tr><td class="col-xs-4"><p><b>Province:</b></p></td><td class="col-xs-8"><p>{{province}}</p></td></tr>
+                    <tr><td class="col-xs-4"><p><b>Postal Code:</b></p></td><td class="col-xs-8"><p>{{postalCode}}</p></td></tr>
+                    <tr><td class="col-xs-4"><p><b>Country:</b></p></td><td class="col-xs-8"><p>{{country}}</p></td></tr>
+                    <tr><td class="col-xs-4"><p><b>Comments:</b></p></td><td class="col-xs-8"><p>{{comments}}</p></td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

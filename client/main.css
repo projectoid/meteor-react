@@ -1,0 +1,44 @@
+h1 {
+    color: #3a5353;
+}
+
+.app-link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #bfff7b;
+    border: 1px solid #90FF5E;
+    width: 200px;
+    height: 3rem;
+    margin: 0;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.app-link:hover {
+    background-color: #90FF5E;
+    text-decoration: none;
+}
+
+.app-link:active {
+    background-color: #90FF5E;
+    text-decoration: none;
+    color: black;
+}
+
+.comments {
+    height: 100px;
+}
+
+.error {
+    font-weight: bold;
+    color: firebrick;
+}
+
+.errorClass {
+    border: 2px solid firebrick;
+}
+
+.submit-button {
+    margin-top: 1rem;
+}
